@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Ninja Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <style>
+        section{
+            padding: 60px o;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-secondary">Ziggy - Bookworm</span>
+            </a>  
+
+            <!--toggle button for mobile-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-control="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!--navbar links-->
+            <div id="main-nav" class="collapse navbar-collapse justify-content-end align-center">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a href="#topics" class="nav-link">About The Book</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Get in Touch</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link d-md-none">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link btn btn-secondary mx-2 d-none d-md-inline text-light">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main image and intro text-->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Black Belt</div>
+                        <div class="display-5 text-muted">Your coding skills</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                </div>
+
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img class="img-fluid" src="./assets/andrey-matveev-parLpHyfNzs-unsplash.jpg" alt="ebook cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--pricing-->
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+            </div>
+
+            <div class="row g-0 my-5 align-items-center justify-content-center">
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Starter Edition</h4>
+                            <p class="lead card-subtitle">eBook download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio sequi quisquam perferendis praesentium, quis iure sunt illum cum rerum!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-lg-4">
+                    <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">Complete Edition</h4>
+                            <p class="lead card-subtitle">eBook download & all updates</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$18.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio sequi quisquam perferendis praesentium, quis iure sunt illum cum rerum!
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Ultimate Edition</h4>
+                            <p class="lead card-subtitle">eBook download, updates and extras</p>
+                            <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio sequi quisquam perferendis praesentium, quis iure sunt illum cum rerum!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="topics">
+        <div class="container-md">
+            <h2>Inside The Book</h2>
+            <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+        </div>
+
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+            <div class="col-6 col-lg-4">
+                <img src="./assets/madalyn-cox-m_57oq_nwDc-unsplash.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-lg-6">
+                <!--accordion-->
+                <div class="accordion" id="books">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#book-1" aria-expanded="true" aria-controls="#book-1">
+                                Book 1 - The Eye of the World
+                            </button>
+                        </h2>
+                        <div id="book-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#books">
+                            <div class="accordion-body">
+                                <p>
+                                    The Eye of the World revolves around protagonists Rand al'Thor, Matrim (Mat) Cauthon, Perrin Aybara, Egwene al'Vere, and Nynaeve al'Meara, after their home town of Emond's Field is unexpectedly attacked by Trollocs (the antagonist's soldiers) and a Myrddraal/Fade (the undead-like officer commanding the Trollocs) intent on capturing Rand, Mat, and Perrin. To save their village from further attacks, Rand, Mat, Perrin, and Egwene flee it, accompanied by the Aes Sedai Moiraine Damodred, her Warder Al'Lan Mandragoran, and gleeman Thom Merrilin, and later joined by Wisdom Nynaeve al'Meara. Pursued by increasing numbers of Trollocs and Myrddraal, the travellers take refuge in the abandoned city of Shadar Logoth, where Mat steals a cursed dagger, thus becoming infected by the malevolent Mashadar. While escaping the city the travelers are separated; Rand, Mat, and Thom travel by boat to Whitebridge, where Thom is lost allowing Rand and Mat to escape a Myrddraal. In Caemlyn, Rand befriends an Ogier named Loial. Trying to catch a glimpse of the recently captured False Dragon, Rand befriends Elayne Trakand, heir apparent to the throne of Andor, and her brothers Gawyn Trakand and Galad Damodred. Rand is then taken before Queen Morgase, her Aes Sedai advisor, Elaida; and Captain-General of the Queen's Guard Gareth Bryne, and released without charge, in spite of Elaida's grave pronouncements regarding Rand.
+                                </p>
+                                <p>
+                                    Egwene and Perrin are guided separately to Caemlyn by Elyas Machera, a man who can communicate telepathically with wolves and who claims that Perrin can do the same. The three run afoul of the Children of the Light, where Perrin kills two for the death of a wolf at their hands and is sentenced to death. Moiraine, Lan, and Nynaeve rescue Egwene and Perrin, and all are reunited with Rand and Mat. Thereafter Moiraine determines that Mat must travel to Tar Valon, the Aes Sedai's center of power, to overcome the influence of Shadar Logoth.
+                                </p>
+                                <p>
+                                    Loial warns Moiraine of a threat to the Eye of the World, a pool of Saidin untouched by the Dark One's influence, which is confirmed by vivid and disturbing dreams Mat, Rand, and Perrin have had. The Eye of the World is protected by Someshta (the Green Man) and contains one of the seven seals on the Dark One's prison, the Dragon banner of Lews Therin Telamon, and the Horn of Valere. At the civilized world's border, the group enters the Blight (the polluted region under the Dark One's control) to protect the Eye. After a pursuit, they meet the Green Man and he reveals the Eye. The group is then confronted by the Forsaken Aginor and Balthamel. As the battle ensues, Balthamel and the Green Man slay each other. Soon after, Rand defeats Aginor and uses the Eye to decimate the Trolloc army and defeat Ba'alzamon. As a result, Moiraine concludes that Rand is the Dragon Reborn, but her opinion and all other details of the final battle are kept from all the male members of the group except Lan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--accordion 2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#book-2" aria-expanded="true" aria-controls="#book-1">
+                                Book 2 - The Great Hunt
+                            </button>
+                        </h2>
+                        <div id="book-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#books">
+                            <div class="accordion-body">
+                                <p>
+                                    Ba'alzamon presides over a clandestine meeting. In addition to Forsaken and Darkfriends (the antagonist's known subordinates), the meeting includes two Aes Sedai.
+                                </p>
+                                <p>
+                                    At Fal Dara in Shienar, following the events in The Eye of the World, the protagonists are visited by the Amyrlin Seat, Siuan Sanche, who identifies Rand al'Thor as the Dragon Reborn. Mat's condition worsens through his psychic attachment to a parasitic dagger. Lan Mandragoran instructs Rand in sword fighting. Darkfriend Padan Fain is imprisoned but subsequently freed by Darkforces, stealing the Horn of Valere and the tainted dagger. Rand, Perrin Aybara, and Mat accompany a Shienaran party southbound in pursuit, under the leadership of Lord Ingtar and guided by a tracker named Hurin. Nynaeve al'Meara and Egwene al'Vere accompany Moraine to Tar Valon for Aes Sedai training, where they befriend Elayne Trakand and the clairvoyant Min. There, Nynaeve passes the test to become Accepted, a rank in the White Tower below Aes Sedai and above a Novice.
+                                </p>
+                                <p>
+                                    Rand, Loial, and Hurin are separated from the Shienaran party and transported to an alternate world; similar to their own, but deserted and distorted. Rand suspects that he activated the portal stone by unconsciously channeling saidin in his sleep, although Egwene dreams that a mysterious woman (later identified as Lanfear) is responsible. Rand's struggle to accept his channeling ability is a recurring element in the novel. In this alternate world, Rand meets Ba'alzamon and has a heron's image (the crest of his sword) branded into his palm in a fight. Later, with the help of the mysterious but beautiful Selene, they return to their own world, ahead of Fain's and Ingtar's groups. This done, they recover the Horn and dagger. At a loss to explain Rand's disappearance, Lord Ingtar's group pursue Padan Fain with the aid of Perrin, who uses a telepathic ability to communicate with wolves.
+                                </p>
+                                <p>
+                                    Rand's party journeys to Cairhien, where Rand finds gleeman Thom Merrilin, whom he thought dead in The Eye of the World. Rand and Loial are attacked by Trollocs (the Dark One's bestial foot-soldiers) and, during their escape, destroy the Chapter House of the Illuminator's Guild, a society retaining knowledge of fireworks. The Horn and dagger are again lost. Later, Thom's apprentice Dena is murdered for Thom's involvement with Rand.
+                                </p>
+                                <p>
+                                    With the aid of Perrin, Ingtar's group is reunited with Rand, and they learn that the Horn has been taken to the port city of Falme in Toman Head. To gain time, Rand tries to lead them through an alternate world; but instead loses time. Meanwhile, the invading Seanchan and their exotic beasts have occupied Falme. Geofram Bornhald, leader of the zealous religious group Children of the Light, is preparing to attack the Seanchan. At the White Tower, Liandrin lures Egwene and Nynaeve, along with Elayne and Min, to Toman Head, where Min is captured by the Seanchan and Egwene is collared with an a'dam: a device used by the Seanchan to control channelers. Nynaeve and Elayne escape
+                                </p>
+                                <p>
+                                    At Falme, Rand slays High Lord Turak of the Seanchan before escaping with the Horn and dagger. Ingtar reveals himself as a Darkfriend, but redeems himself when he dies fighting for Rand's group. Elayne and Nynaeve rescue Egwene from the Seanchan and attempt to flee the city. At this moment the Whitecloaks also attack, leaving the heroes trapped between the Seanchan and the Whitecloaks; whereupon Mat blows the Horn of Valere, resurrecting dead heroes including Artur Hawkwing, which overcome the Seanchan and vanish. Rand himself vanquishes Ba'alzamon, but is himself wounded, and in doing so projects an image of their duel to numerous peoples.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--accordion3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#book-3" aria-expanded="true" aria-controls="#book-3">
+                                Book 3 - The Dragon Reborn
+                            </button>
+                        </h2>
+                        <div id="book-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#books">
+                            <div class="accordion-body">
+                                <p>
+                                    Rand al'Thor, having been declared the Dragon Reborn by Moiraine Damodred, secretly goes to Tear to prove himself. Along the way he is hunted by Darkhounds and Darkfriends. After leaving in secret, Moiraine, Lan Mandragoran, the Ogier Loial, and Perrin Aybara follow always one step behind. Rand leaves in his trail a pattern of weddings and strange events. Perrin comes across an Aiel warrior that was captured and in a cage. He frees him, earning a friendship with Gaul, a Stone Dog, who will accompany Perrin on his travels. This event is witnessed by a hunter of the horn, Zarine Bashere (alias Faile), who joins the party as well.
+                                </p>
+                                <p>
+                                    Min reports to the Amyrlin Seat, while Moiraine, Lan, Loial, Zarine and Perrin follow Rand. En route they battle Darkhounds, and discover that the Forsaken Sammael rules in Illian.
+                                </p>
+                                <p>
+                                    Mat Cauthon is taken to Tar Valon by Verin Mathwin, Nynaeve al'Meara, Egwene al'Vere, Elayne Trakand, and Hurin. Immediately after arrival in Tar Valon, Hurin departs to report to King Easar in Shienar. The Amyrlin Seat, Siuan Sanche, sets Nynaeve, Egwene, and later Elayne, to hunting down the Black Ajah, and therefore to Tear.
+                                </p>
+                                <p>
+                                    In the White Tower, through the use of a sa'angreal by Aes Sedai, Mat is healed of the corruptive influence of the ruby dagger of Shadar Logoth. Once healed Mat defeats Galad Damodred and Gawyn Trakand in a practice sword battle, using a quarterstaff. This wins him enough money to gamble with and purchase passage away from Tar Valon; at which point he is approached by Nynaeve, Egwene and Elayne to deliver a letter to her mother Queen Morgase. Mat reunites with Thom Merrilin, and they together travel to Andor, where Mat delivers the letter and learns of a plot by Queen Morgase's lover, Lord Gaebril, to murder Elayne. To prevent that murder, Mat pursues the killers to Tear.
+                                </p>
+                                <p>
+                                    In Tear, Nynaeve, Egwene, and Elayne are betrayed by Juilin Sandar (under the influence of Liandrin) to the Black Ajah and imprisoned in the Stone of Tear, whence they are rescued by Mat and a repentant Juilin. Faile falls into a trap meant for Moiraine, and Perrin risks his life to rescue her. Rand and the Forsaken Be'lal duel in the Stone of Tear, until Moiraine kills Be'lal with balefire. Ba'alzamon disables Moiraine and attacks Rand, whereupon Rand takes Callandor (a more powerful sa'angreal), and apparently kills Ba'alzamon; but Moiraine argues that the Dark One, having no tangible body, is not represented by the dead man. Egwene, remembering a prophecy, instead deduces that the corpse is possibly Ishamael, Chief among the Forsaken. The Aiel in Tear conquer the Stone in loyalty to Rand.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--accordion4-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#book-4" aria-expanded="true" aria-controls="#book-4">
+                                Book 4 - The Shadow Rising
+                            </button>
+                        </h2>
+                        <div id="book-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#books">
+                            <div class="accordion-body">
+                                <p>
+                                    Rand al'Thor has just claimed the crystal sword Callandor to prove himself the Dragon Reborn. He is approached by Lanfear, who tells him of the Forsaken's plans. However, the fortress known as the Stone of Tear is stormed by Trollocs and Fades, sent by another Forsaken (Sammael), while a third, Semirhage, sends her followers into the Stone, to oppose Sammael's forces. In defense, Rand uses Callandor to create a lightning storm killing all the Trollocs and Fades.
+                                </p>
+    
+                                <p>
+                                    Rand then decides that he must travel to the Aiel Waste, to be acknowledged as the Aiel's prophesied leader. Before leaving, Rand, Mat Cauthon, and Moiraine Damodred visit a ter'angreal that lets them talk to a mysterious snakelike race called the Aelfinn, who seemingly know the answer to any question. Mat learns from them that he must go to Rhuidean or die and also that he is destined to marry someone called "the Daughter of the Nine Moons". Egwene al'Vere and the Aiel woman Aviendha are also summoned to the Aiel Waste, Egwene to learn Dreamwalking and Aviendha to become a Wise One. Thus, Rand, Mat, Moiraine, Egwene, and Aviendha all travel to the Aiel Waste.
+                                </p>
+    
+                                <p>
+                                    Other characters in the Stone of Tear also learn that they must travel elsewhere. Perrin Aybara hears of trouble in The Two Rivers, his native region, and returns thereto, accompanied by Faile Bashere, Loial, and three Aiel warriors: Gaul, Bain, and Chiad. Elayne Trakand, Nynaeve al'Meara, and Thom Merrilin depart to Tarabon to hunt the Black Ajah. Finally, Min Farshaw arrives in Tar Valon to report to the Amyrlin Siuan Sanche. Thus, The Shadow Rising follows four groups of characters in four plotlines.
+                                </p>
+                                
+                            
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--accordion5-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-5">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#book-5" aria-expanded="true" aria-controls="#book-5">
+                                Book 5 - The Fires of Heaven
+                            </button>
+                        </h2>
+                        <div id="book-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#books">
+                            <div class="accordion-body">
+                                <p>
+                                    In Rhuidean, worried by news that Aiel from other clans join the cause of his enemy Couladin, Rand al’Thor confers with the Clan Chiefs who have recognised him as the Car’a’carn – Chief of Chiefs – on how to win over the four remaining Clans. Darkhounds attack and he kills them with balefire, a powerful weave that burns a person's thread backwards through the Pattern, undoing his past actions for a short time prior to being consumed by balefire. Egwene al'Vere continues to chafe under the instruction of Aiel Wise Ones, eager to learn faster than they think is wise, and Moiraine Damodred grows increasingly desperate to find her way into Rand’s circle of trust.
+                                </p>
+                                <p>
+                                    Unwilling to accept an outsider as their prophesied hero, the Shaido and their allies follow Couladin across the Dragonwall to conquer the “treekillers” and wetlanders. Rand leads the seven Aiel Clans who have recognised him in pursuit and is followed in turn by the four of the undecided Aiel Clans. Along the way they are ambushed by Darkfriends and Shadowspawn but arrive in time to save the city of Cairhien and defeat the Shaido, in part thanks to the memories of long dead generals the Eelfinn have placed in Matrim Cauthon’s mind. Couladin is killed in single combat by Mat, while Rand is attacked from afar by either Rahvin or Sammael during the course of the battle.
+                                </p>
+                                <p>
+                                    As Rand establishes his control of Cairhien, a nation torn apart by scheming and war, he learns that the Forsaken Rahvin has deposed Queen Morgase who is presumed dead. Furious at himself for not acting sooner, Rand prepares to travel to Andor personally and kill Rahvin in revenge, but is delayed by Moiraine. Lanfear attacks Rand who is unwilling to fight back. Rand is saved by the sacrifice of Moirane who foresaw Lanfear’s attack.
+                                </p>
+                                <p>
+                                    Siuan, Leane and Min make way to Salidar, where the Aes Sedai who have escaped the Tower after Elaida's coup have made a temporary base. Siuan subtely convinces Sheriam and the other Aes Sedai there that they must support Rand. Gareth Bryne follows shortly afer, in pursuit of Siuan, and the Aes Sedai have him agree to help build an army for them.
+                                </p>
+                                <p>
+                                    Meanwhile Nynaeve and Elayne seek out the rebel Aes Sedai accompanied by Thom and Juilin, discovering the forkroot herb that incapacitates channelers. Stuck in cities that are occupied by the Whitecloaks and with Elaida's agents trying to capture Elayne, they disguise themselves and join a travelling circus menagerie, performing acts through villages and towns. Despite Egwene warning Nynaeve through a dream about the dangers of the world of dreams, Nynaeve still visits Telaranrhiod alone trying to work with Birgitte to track the forsaken Moghedien. Eventually Moghedien traps Nynaeve and Birigitte in the world of dreams, and the pair narrowly escapes, however at the cost of Birigitte being pushed into the waking world severely injured. Elayne bonds Birigitte as her warder to help save her life.
+                                </p>
+                                <p>
+                                    The girls make way to Samara, which is rife with troubles. Masema - who has named himself the prophet and taken over the city with zealous followers of the dragon reborn - and the Whitecloaks who have entered the town are on the brink of war. Nynaeve meets Galad there again, who has joined the Whitecloaks. Both he and Masema promise to help them get a ship to escape the city. After much trouble, Nynaeve, Elayne, Thom and Juilin, now accompanied by a band of Shienaran soldiers make way to Salidar.
+                                </p>
+                                <p>
+                                    Nynaeve confronts Moghedien in a dream again, but this time she is successful in ensnaring her with an a'dam. Finding out that Rand may be in danger, she drags the forsaken along to help save him through the world of dreams.
+                                </p>
+                                <p>
+                                    Rand Skims to Caemlyn, where his forces enter a trap laid by Rahvin. Lightning bolts triggered by Rahvin kill Mat, Asmodean and Aviendha, which causes Rand to recklessly attack the Forsaken. His battle with Rahvin leads him into the world of dreams, where with the assistance of Nynaeve he destroys Rahvin with Balefire. Upon returning to the waking world, he discovers that his balefire undid Rahvin's killings of Mat, Aviendha and Asmodean. Before waking Nynaeve realises Moghedien is posing as a refugee in the rebel Aes Sedai camp and doses her with forkroot, allowing her to be captured in the real world.
+                                </p>
+    
+                                <p>
+                                    In Tanchico, Nynaeve and Elayne set out for the White Tower -- only to receive news that it has suffered a schism. Elaida, a Red sister and former advisor to Queen Morgase Trakand, has deposed and replaced the Former Amyrlin Seat and ally Siuan Sanche.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
